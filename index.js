@@ -1,8 +1,7 @@
-const jsonfile = require('jsonfile');
-const moment = require('moment');
-const simpleGit = require('simple-git');
-require = require('esm')(module);
-const random = require('random');
+import jsonfile from 'jsonfile';
+import moment from 'moment';
+import simpleGit from 'simple-git';
+import random from 'random';
 
 // Use the 'random' module as needed in your code.
 
@@ -25,4 +24,4 @@ simpleGit().add([FILE_PATH]).commit(DATE, {'--date': DATE}, makeCommit.bind(this
 
 }
 
-makeCommit(100);
+makeCommit(500);
