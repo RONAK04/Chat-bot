@@ -11,6 +11,13 @@
   "dependencies": {
     "jsonfile": "^6.1.0",
     "moment": "^2.29.4",
+    "random": "^4.1.0",
+    "random-js": "^2.1.0",
     "simple-git": "^3.19.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "esm": "^3.2.25"
   }
 }
